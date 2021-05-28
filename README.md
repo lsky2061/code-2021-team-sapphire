@@ -28,6 +28,10 @@ We used two different methodologies to make the assessment for the best strategy
 #### Insurance Provider #Luke
 
 ![](documents/LukePayer_LogReg.jpg)
+
+#### Insurance Provider #Prerna
+![](documents/PrernaPayer_logreg.png)
+
 ### Decision Tree
 
 #### Insurance Provider #Luke
