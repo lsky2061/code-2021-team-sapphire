@@ -25,37 +25,37 @@ We used two different methodologies to make the assessment for the best strategy
 ## Classification models applied for each Insurance Provider separately
 ### Logistic Regression
 
-#### Insurance Provider #Luke
+#### Insurance Provider #417614
 
 ![](documents/LukePayer_LogReg.jpg)
 
-#### Insurance Provider #Prerna
+#### Insurance Provider #417740
 ![](documents/PrernaPayer_logreg.png)
 
 ### Decision Tree
 
-#### Insurance Provider #Luke
+#### Insurance Provider #417614
 
 ![](documents/LukePayer_DecTree.jpg)
 
-#### Insurance Provider #Prerna
+#### Insurance Provider #417740
 ![](documents/PrernaPayer_DecTree.png)
 
 ### Random Forest
 
-#### Insurance Provider #Luke
+#### Insurance Provider #417614
 
 ![](documents/LukePayer_RandomForest.jpg)
 
-#### Insurance Provider #Prerna
+#### Insurance Provider #417740
 
 ![](documents/PrernaPayer_RandomForest.png)
 
 ### KNN Classifier
 
-#### Insurance Provider #Luke
+#### Insurance Provider #417614
 
-#### Insurance Provider #Prerna
+#### Insurance Provider #417740
 ![](documents/PrernaPayer_knn.png)
 
 
@@ -73,3 +73,15 @@ Knn classifier takes too much time to run on combined data for all payers. Due t
 We obtained different Accuracy, Precision and Recall values for different classification models. For the purposes of predicting a PA approval probability we believe that a false negative would be the worst failure mode as that would discourage a patient with high chances of PA approval from submitting one. At the same time a false positive would also be considerably bad as it would provide false hope to a patient and discourage them from considering other tratment options. In view of this, we have decided to pick an optimized model that maximizes the recall score while keeping the precision score greater than 80%. As can be seen in the above mentioned models, logistic regression with combined data of all payers gives us the highest recall of ?% with a precision of ?%. Therefore, we apply this model to make predictions for the our web-app that can be found here.
 
 ## Contact
+#### Luke Corwin
+Luke_email
+Luke_linkedin
+#### Yiming Gong
+Yiming_email
+Yiming_linkedin
+#### Prerna Kabtiyal
+kabtiyalprerna@gmail.com
+https://www.linkedin.com/in/prerna-kabtiyal-89449766/
+#### Katherine Zhang
+Katherine_email
+Katherine_linkedin
