@@ -63,7 +63,9 @@ We used two different methodologies to make the assessment for the best strategy
 ### Random Forest
 ![](documents/RandomForest%20for%20all%20payers.png)
 ### KNN Classifier
+Knn classifier takes too much time to run on combined data for all payers. Due to the time required to get results out of a Knn classification model, it does not fare well to work with a web-app.  
 
 ## Decision Making 
+We obtained different Accuracy, Precision and Recall values for different classification models. For the purposes of predicting a PA approval probability we believe that a false negative would be the worst failure mode as that would discourage a patient with high chances of PA approval from submitting one. At the same time a false positive would also be considerably bad as it would provide false hope to a patient and discourage them from considering other tratment options. In view of this, we have decided to pick an optimized model that maximizes the recall score while keeping the precision score greater than 80%. As can be seen in the above mentioned models, logistic regression with combined data of all payers gives us the highest recall of ?% with a precision of ?%. Therefore, we apply this model to make predictions for the our web-app that can be found here.
 
 ## Contact
