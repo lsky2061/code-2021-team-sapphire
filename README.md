@@ -26,37 +26,25 @@ We used two different methodologies to make the assessment for the best strategy
 
 ## Classification models applied for each Insurance Provider separately
 ### Logistic Regression
-
 #### Insurance Provider #417614
-
 ![](documents/LukePayer_LogReg.jpg)
-
 #### Insurance Provider #417740
 ![](documents/PrernaPayer_logreg.png)
 
 ### Decision Tree
-
 #### Insurance Provider #417614
-
 ![](documents/LukePayer_DecTree.jpg)
-
 #### Insurance Provider #417740
 ![](documents/PrernaPayer_DecTree.png)
 
 ### Random Forest
-
 #### Insurance Provider #417614
-
 ![](documents/LukePayer_RandomForest.jpg)
-
 #### Insurance Provider #417740
-
 ![](documents/PrernaPayer_RandomForest.png)
 
 ### KNN Classifier
-
 #### Insurance Provider #417614
-
 #### Insurance Provider #417740
 ![](documents/PrernaPayer_knn.png)
 
@@ -76,14 +64,14 @@ We obtained different Accuracy, Precision and Recall values for different classi
 
 ## Contact
 #### Luke Corwin
-Luke_email
+Luke_email\
 Luke_linkedin
 #### Yiming Gong
-Yiming_email
+Yiming_email\
 Yiming_linkedin
 #### Prerna Kabtiyal
-kabtiyalprerna@gmail.com
+kabtiyalprerna@gmail.com\
 https://www.linkedin.com/in/prerna-kabtiyal-89449766/
 #### Katherine Zhang
-Katherine_email
+Katherine_email\
 Katherine_linkedin
