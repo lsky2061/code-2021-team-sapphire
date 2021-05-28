@@ -31,8 +31,9 @@ Insurance Provider #Luke
 Insurance Provider #Luke
 
 ![](documents/LukePayer_DecTree.jpg)
-Insurance Provider #Prerna
 
+Insurance Provider #Prerna
+![](documents/PrernaPayer_DecTree.png)
 
 ### Random Forest
 Insurance Provider #Luke
@@ -41,7 +42,7 @@ Insurance Provider #Luke
 
 Insurance Provider #Prerna
 
-
+![](documents/PrernaPayer_RandomForest.png)
 ### KNN Classifier
 
 ## Classification models applied with combined data from all Insurance Providers 
