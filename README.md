@@ -24,7 +24,8 @@ We used two different methodologies to make the assessment for the best strategy
 
 ## Classification models applied for each Insurance Provider separately
 ### Logistic Regression
-Insurance Provider #Luke
+
+#### Insurance Provider #Luke
 
 ![](documents/LukePayer_LogReg.jpg)
 ### Decision Tree
