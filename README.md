@@ -16,7 +16,8 @@ We have utilized anonymized data provided by CoverMyMeds as part of May-2021 Boo
 The Exploratory Data Analysis made it clear that each payer has different reasons for requiring a PA for each drug. The data provided specified this through a column of rejection codes which are identified as follows. 70.0- The drug is not on the provider's formulary, 75.0- The drug is on the payer's formulary but does not have preferred status, 76.0- The drug is on formulary but the patient has exceeded the allowed limit. The following bar plot summarizes the associated rjection code for each drug for all payers.
 ![](documents/Rejectioncodesforeachpayer.png)
 The above information helps us make the following conclusions regarding the need to submit a PA.
-![](documents/PA_req_table.png)
+![](documents/PA_req_table.PNG)
+
 
 ## Application of Classification models to predict PA approval 
 We used two different methodologies to make the assessment for the best strategy to use classification based prediction of PA approval. We divided our data into four sections corresponding to each insurance provider (defined as payer in the data) and tried applying machine learning models to each provider's data. We also ran same classification models on the combined data for all providers through an additional feature specifying provider number in our model. We have noticed that the second approach consistently provides better precision and recall for every tested model. The results from each model for both approaches are shown below.
