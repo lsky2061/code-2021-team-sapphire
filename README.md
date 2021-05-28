@@ -28,22 +28,31 @@ Insurance Provider #Luke
 
 ![](documents/LukePayer_LogReg.jpg)
 ### Decision Tree
-Insurance Provider #Luke
+
+#### Insurance Provider #Luke
 
 ![](documents/LukePayer_DecTree.jpg)
 
-Insurance Provider #Prerna
+#### Insurance Provider #Prerna
 ![](documents/PrernaPayer_DecTree.png)
 
 ### Random Forest
-Insurance Provider #Luke
+
+#### Insurance Provider #Luke
 
 ![](documents/LukePayer_RandomForest.jpg)
 
-Insurance Provider #Prerna
+#### Insurance Provider #Prerna
 
 ![](documents/PrernaPayer_RandomForest.png)
+
 ### KNN Classifier
+
+#### Insurance Provider #Luke
+
+#### Insurance Provider #Prerna
+![](documents/PrernaPayer_knn.png)
+
 
 ## Classification models applied with combined data from all Insurance Providers 
 ### Logistic Regression
