@@ -25,22 +25,32 @@ We used two different methodologies to make the assessment for the best strategy
 ## Classification models applied for each Insurance Provider separately
 ### Logistic Regression
 Insurance Provider #Luke
+
 ![](documents/LukePayer_LogReg.jpg)
 ### Decision Tree
 Insurance Provider #Luke
+
 ![](documents/LukePayer_DecTree.jpg)
 Insurance Provider #Prerna
-![](documents/
+
+
 ### Random Forest
 Insurance Provider #Luke
+
 ![](documents/LukePayer_RandomForest.jpg)
+
+Insurance Provider #Prerna
+
+
 ### KNN Classifier
 
 ## Classification models applied with combined data from all Insurance Providers 
 ### Logistic Regression
 ![](documents/AllLogReg.jpg)
 ### Decision Tree
+![](documents/DecisionTree%20for%20all%20payers.png)
 ### Random Forest
+![](documents/RandomForest%20for%20all%20payers.png)
 ### KNN Classifier
 
 ## Decision Making 
