@@ -73,5 +73,5 @@ linkedin.com/in/yiming-gong-54a273174
 kabtiyalprerna@gmail.com\
 https://www.linkedin.com/in/prerna-kabtiyal-89449766/
 #### Katherine Zhang
-Katherine_email\
-Katherine_linkedin
+huizhangpku@hotmail.com\
+https://www.linkedin.com/in/katherine-hui-zhang-50705a32/
