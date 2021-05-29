@@ -64,11 +64,11 @@ We obtained different Accuracy, Precision and Recall values for different classi
 
 ## Contact
 #### Luke Corwin
-Luke_email\
-Luke_linkedin
+luke.a.corwin@gmail.com
+https://www.linkedin.com/in/luke-corwin/
 #### Yiming Gong
-Yiming_email\
-Yiming_linkedin
+ymgong@umich.edu
+linkedin.com/in/yiming-gong-54a273174
 #### Prerna Kabtiyal
 kabtiyalprerna@gmail.com\
 https://www.linkedin.com/in/prerna-kabtiyal-89449766/
