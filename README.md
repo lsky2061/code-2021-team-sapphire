@@ -33,7 +33,7 @@ We used two different methodologies to make the assessment for the best strategy
 ### Decision Tree
 ![](documents/Allpayers_DT.png)
 ### Random Forest
-![](documents/RandomForest%20for%20all%20payers.png)
+![](documents/Allpayers_RF.png)
 ### KNN Classifier
 Knn classifier takes too much time to run on combined data for all payers. Due to the time required to get results out of a Knn classification model, it does not fare well to work with a web-app.  
 
