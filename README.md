@@ -15,8 +15,8 @@ In the recent years, CoverMyMeds(www.covermymeds.com) has simplified the PA proc
 ## Data Used
 We have utilized anonymized data provided by CoverMyMeds as part of May-2021 Bootcamp organized by The Erdos Institute. The data provides PA information from four different insurance providers for three different Drugs A, B and C. 
 ## Data Analysis to predict PA requirement 
-The Exploratory Data Analysis made it clear that each payer has different reasons for requiring a PA for each drug. The data provided specified this through a column of rejection codes which are identified as follows. 70.0- The drug is not on the provider's formulary, 75.0- The drug is on the payer's formulary but does not have preferred status, 76.0- The drug is on formulary but the patient has exceeded the allowed limit. The following bar plot summarizes the associated rejection code for each drug for all payers.
-![](documents/Rejectioncodesforeachpayer.png)
+The Exploratory Data Analysis made it clear that each payer has different reasons for requiring a PA for each drug. The data provided specified this through a column of rejection codes which are identified as follows. 70.0- The drug is not on the provider's formulary, 75.0- The drug is on the payer's formulary but does not have preferred status, 76.0- The drug is on formulary but the patient has exceeded the allowed limit. The following bar plot summarizes the associated rejection code for each drug for all payers. We also see that for every payer there is only one rejection code associated with a particular drug. 
+![](documents/EDA_Tableau.png)
 The above information helps us make the following conclusions regarding the need to submit a PA.
 ![](documents/PA_req_table.PNG)
 
