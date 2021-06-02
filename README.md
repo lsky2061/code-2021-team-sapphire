@@ -4,7 +4,7 @@ Luke Corwin, Yiming Gong, Prerna Kabtiyal, Katherine Zhang
 All authors have equal contribution to this project.
 ## Overview
 Prior authorization(PA) is a process required to determine whether a medical service or prescription will be covered by the health insurance provider of a patient.A PA is submitted by the Health Care Provider directly to the Health Insurance Provider and the PA has to be approved before the patient can receive the required service and prescription. This process traditionally takes place through multiple fax-based correspondences between the Healthcare Provider and Insurance Provider. Different Health Insurance Providers have different PA requirements and parameters of assessment for different drugs/services, adding to the vagueness of this process. Therefore, this process is inherently time-consuming and unclear causing the patient considerable frustration and forcing patients to drop out of their treatment plan. The traditonal PA process is therefore can be demotivating at its best and fatal at its worst.
-In the recent years, CoverMyMeds(www.covermymeds.com) has simplified the PA process by introducing an electronic PA(ePA) system to facilitate PA form submissions and correspondence between the care providers and insurance providers. Here we present a model developed using data provided by CoverMyMeds, with an objective  to further streamline the ePA process by providing an interface for patients and care providers to assess if the desired service/prescription will require a PA, and if they do what is the probability of PA approval. A prototype web-app applying this model can be found here. 
+In the recent years, CoverMyMeds(www.covermymeds.com) has simplified the PA process by introducing an electronic PA(ePA) system to facilitate PA form submissions and correspondence between the care providers and insurance providers. Here we present a model developed using data provided by CoverMyMeds, with an objective  to further streamline the ePA process by providing an interface for patients and care providers to assess if the desired service/prescription will require a PA, and if they do what is the probability of PA approval. A prototype web-app applying this model can be found #####here. 
 ## Main Takeaways
 1. Traditional PA process is time-consuming, vague and cause patients to drop-out of treatment plans.
 2. Predicting the requirement and approval probability for a PA can be useful to patients and care providers.
@@ -60,18 +60,18 @@ We used two different methodologies to make the assessment for the best strategy
 Knn classifier takes too much time to run on combined data for all payers. Due to the time required to get results out of a Knn classification model, it does not fare well to work with a web-app.  
 
 ## Decision Making 
-We obtained different Accuracy, Precision and Recall values for different classification models. For the purposes of predicting a PA approval probability we believe that a false negative would be the worst failure mode as that would discourage a patient with high chances of PA approval from submitting one. At the same time a false positive would also be considerably bad as it would provide false hope to a patient and discourage them from considering other tratment options. In view of this, we have decided to pick an optimized model that maximizes the recall score while keeping the precision score greater than 80%. As can be seen in the above mentioned models, logistic regression with combined data of all payers gives us the highest recall of ?% with a precision of ?%. Therefore, we apply this model to make predictions for the our web-app that can be found here.
+We obtained different Accuracy, Precision and Recall values for different classification models. For the purposes of predicting a PA approval probability we believe that a false negative would be the worst failure mode as that would discourage a patient with high chances of PA approval from submitting one. At the same time a false positive would also be considerably bad as it would provide false hope to a patient and discourage them from considering other tratment options. In view of this, we have decided to pick an optimized model that maximizes the recall score while keeping the precision score greater than 80%. As can be seen in the above mentioned models, logistic regression with combined data of all payers gives us the highest recall of ~96% with a precision of ~81%. Therefore, we apply this model to make predictions for the our web-app that can be found ######here.
 
 ## Contact
 #### Luke Corwin
-Luke_email\
-Luke_linkedin
+luke.a.corwin@gmail.com\
+https://www.linkedin.com/in/luke-corwin/
 #### Yiming Gong
-Yiming_email\
-Yiming_linkedin
+ymgong@umich.edu\
+https://www.linkedin.com/in/yiming-gong-54a273174
 #### Prerna Kabtiyal
 kabtiyalprerna@gmail.com\
 https://www.linkedin.com/in/prerna-kabtiyal-89449766/
 #### Katherine Zhang
-Katherine_email\
-Katherine_linkedin
+huizhangpku@hotmail.com\
+https://www.linkedin.com/in/katherine-hui-zhang-50705a32/
