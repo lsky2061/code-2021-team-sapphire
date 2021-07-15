@@ -25,7 +25,12 @@ The above information helps us make the following conclusions regarding the need
 We used two different methodologies to make the assessment for the best strategy to use classification based prediction of PA approval. We divided our data into four sections corresponding to each insurance provider (defined as payer in the data) and tried applying machine learning models to each provider's data. We also ran same classification models on the combined data for all providers through an additional feature specifying provider number in our model. We have noticed that the second approach consistently provides better precision and recall for every tested model. The results from each model for both approaches are shown below.
 
 ## Classification models applied for each Insurance Provider separately
-### Payerwise Model Table to be inserted
+|Insurance Provider(Payer)|        Logistic Regression         |          Decision Tree          |          Random Forest          |       K-Nearest Neighbors       |
+| :---------------------: | :--------------------------------: | :-----------------------------: | :-----------------------------: | :-----------------------------: |
+|        417380           |    Precision=92.64%; Recall=93.52% | Precision=92.64%; Recall=93.52% | Precision=92.64%; Recall=93.52% | Precision=94%   ; Recall=90.72% |
+|        417740           |    Precision=80.53%; Recall=81.15% | Precision=82.07%; Recall=94.08% | Precision=78.85%; Recall=83.90% | Precision=83.69%; Recall=88.74% |
+|        417614           |    Precision=81.23%; Recall=87.77% | Precision=78.02%; Recall=94.81% | Precision=78.02%; Recall=94.81% | Precision=80.2% ; Recall=88.5%  |
+|        999001           |    Precision=90.61%; Recall=100%   | Precision=90.61%; Recall=100%   | Precision=91.95%; Recall=98.91% | Precision=92.42%; Recall=97.56% |
 
 ## Classification models applied with combined data from all Insurance Providers 
 ### Logistic Regression
